@@ -1,7 +1,7 @@
 import '@/css/tailwind.css'
 import '@/css/prism.css'
-
 import '@fontsource/inter/variable-full.css'
+import '@headlessui/react'
 
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
