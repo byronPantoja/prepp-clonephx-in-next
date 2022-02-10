@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
-  "version": "1.5.0",
-  "private": true,
+  "name": "prepp-clonephx-in-next",
+  "version": "0.0.1",
+  "private": false,
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
     "dev": "next dev",

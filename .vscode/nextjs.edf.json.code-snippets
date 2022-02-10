@@ -1,0 +1,19 @@
+{
+  "Const Function Export Default": {
+    "prefix": "cfed",
+    "body": [
+      "import SectionContainer from 'components/SectionContainer';",
+      "",
+      "const $TM_FILENAME_BASE = () => {",
+      "\treturn (",
+      "\t\t<SectionContainer>",
+      "\t\t\t<div>$TM_FILENAME_BASE</div>",
+      "\t\t</SectionContainer>",
+      "\t);",
+      "};",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "NextJS Const Function Export Default"
+  }
+}
