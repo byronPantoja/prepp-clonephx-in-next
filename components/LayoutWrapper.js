@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useTheme } from 'next-themes'
+import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
-import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
@@ -9,7 +9,6 @@ import ThemeSwitch from './ThemeSwitch'
 import Company from './Company'
 import LogoLight from 'data/logo-light.svg'
 import LogoDark from 'data/logo-dark.svg'
-import { useTheme } from 'next-themes'
 
 const LayoutWrapper = ({ children }) => {
   const { theme } = useTheme()
