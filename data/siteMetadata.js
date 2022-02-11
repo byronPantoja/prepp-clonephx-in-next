@@ -7,7 +7,7 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: '',
   siteRepo: 'https://github.com/byronPantoja/prepp-clonephx-in-next',
-  siteLogo: '/static/images/logo.png',
+  siteLogo: '/static/images/loo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'developer833@eight33digital.com',
